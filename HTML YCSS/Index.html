@@ -1,0 +1,69 @@
+<html>
+   <head>
+    <title> Clientes</title>
+	<meta charset="UTF-8"> <!-- caracteres especiales ñ y acento -->
+    <link rel="stylesheet" href="css/estilo.css"> <!-- cargar una hola de estilo CSS3 externa -->
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="manejomatriz.js"></script>
+   </head>
+<body>
+<center>
+<h1>ADMINISTRACIÓN DE CLIENTES</h1>
+
+	<table  border="1" align="center">
+	<tr>
+	<td colspan="4">
+	<center><img src=img/1.png></center>
+	<table align="center">
+		<tr>
+		<td>
+
+		<form name="miform" method="post" action="">
+
+		<fieldset>
+		  <legend><strong>Datos </strong></legend>
+           
+          	   
+		  <label for="nombre">Nombre</label> <br>  
+		  <input name="nombre" id="nombre" size="50" maxlength="250" type="text"><br><br>
+		  <label for="apellido">Apellido</label> <br>  
+		  <input name="apellido" id="apellido" size="50" maxlength="250" type="text"><br><br>
+          <label for="compras">Compras</label> 
+		  <input size="5" id="edad" name="edad" type="text"> 
+		</fieldset>
+
+
+		</td>
+		</tr>
+		</table>
+		<table>	
+		<tr>
+		<td>
+		<input type="button" onclick="mostrarCliente()" value="Mostrar Clientes">
+		</td>
+		<td>
+		<input type="button" onclick="insertarCliente()" value="Ingresar Clientes">
+		</td>
+		<td>
+		<input type="button" onclick="actualizarCliente()" value="Actualizar Clientes">
+		</td>
+		<td>
+		<input type="button" onclick="eliminarCliente()" value="Eliminar Clientes">
+		</td>
+		<td>
+		<input type="button" onclick="promedioCompras()" value="Promedio Compras">
+		</td>
+		</tr>
+		</table>
+		</form>
+		
+		<div id="mostrar">
+		
+		</div>
+				
+</center>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

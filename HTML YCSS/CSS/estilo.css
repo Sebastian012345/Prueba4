@@ -1,0 +1,31 @@
+body
+{
+	background-color:#fff6f1;
+	font-family:'helvetica', Arial;
+	
+}
+
+
+h1
+{
+border-bottom:solid;
+padding-bottom:10px;
+border-width:1px;
+border-color:#1d1d1d;
+text-shadow:0px 0px 20px rgb(0,0,0,1.5);
+font-family: 'Russo One', sans-serif;
+color:red;	
+
+}
+
+label
+{
+display: block;
+
+}	
+	
+	
+form{
+	
+	font-size: 15px;
+}
